@@ -1,0 +1,9 @@
+C:\Users\dave1\Downloads\XamarinSamples-master\src\AlarmClock\Yibi\Samples.Core\bin\Debug\netstandard2.0\Yibi.Samples.Core.deps.json
+C:\Users\dave1\Downloads\XamarinSamples-master\src\AlarmClock\Yibi\Samples.Core\bin\Debug\netstandard2.0\Yibi.Samples.Core.dll
+C:\Users\dave1\Downloads\XamarinSamples-master\src\AlarmClock\Yibi\Samples.Core\bin\Debug\netstandard2.0\Yibi.Samples.Core.pdb
+C:\Users\dave1\Downloads\XamarinSamples-master\src\AlarmClock\Yibi\Samples.Core\obj\Debug\netstandard2.0\Samples.Core.csprojAssemblyReference.cache
+C:\Users\dave1\Downloads\XamarinSamples-master\src\AlarmClock\Yibi\Samples.Core\obj\Debug\netstandard2.0\Samples.Core.csproj.CoreCompileInputs.cache
+C:\Users\dave1\Downloads\XamarinSamples-master\src\AlarmClock\Yibi\Samples.Core\obj\Debug\netstandard2.0\Samples.Core.AssemblyInfoInputs.cache
+C:\Users\dave1\Downloads\XamarinSamples-master\src\AlarmClock\Yibi\Samples.Core\obj\Debug\netstandard2.0\Samples.Core.AssemblyInfo.cs
+C:\Users\dave1\Downloads\XamarinSamples-master\src\AlarmClock\Yibi\Samples.Core\obj\Debug\netstandard2.0\Yibi.Samples.Core.dll
+C:\Users\dave1\Downloads\XamarinSamples-master\src\AlarmClock\Yibi\Samples.Core\obj\Debug\netstandard2.0\Yibi.Samples.Core.pdb

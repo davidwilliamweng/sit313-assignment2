@@ -1,0 +1,249 @@
+{
+  "runtimeTarget": {
+    "name": ".NETStandard,Version=v2.0/",
+    "signature": "a4a0b8a8d384bfc0a564c4b8db0b0e48fc7d64d7"
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETStandard,Version=v2.0": {},
+    ".NETStandard,Version=v2.0/": {
+      "Yibi.Samples/1.0.0": {
+        "dependencies": {
+          "NETStandard.Library": "2.0.3",
+          "Plugin.MediaManager.Forms": "0.8.7",
+          "Xamarin.Essentials": "1.2.0",
+          "Xamarin.Forms": "4.1.0.673156",
+          "Xamarin.Plugin.Calendar": "1.0.3.200",
+          "Xamarin.Plugin.FilePicker": "2.1.18",
+          "Yibi.Samples.Core": "1.0.0"
+        },
+        "runtime": {
+          "Yibi.Samples.dll": {}
+        }
+      },
+      "Microsoft.NETCore.Platforms/1.1.0": {},
+      "NETStandard.Library/2.0.3": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0"
+        }
+      },
+      "Plugin.MediaManager/0.8.7": {
+        "runtime": {
+          "lib/netstandard2.0/MediaManager.dll": {
+            "assemblyVersion": "0.8.7.0",
+            "fileVersion": "0.8.7.0"
+          }
+        }
+      },
+      "Plugin.MediaManager.Forms/0.8.7": {
+        "dependencies": {
+          "Plugin.MediaManager": "0.8.7",
+          "Xamarin.Forms": "4.1.0.673156"
+        },
+        "runtime": {
+          "lib/netstandard2.0/MediaManager.Forms.dll": {
+            "assemblyVersion": "0.8.7.0",
+            "fileVersion": "0.8.7.0"
+          }
+        }
+      },
+      "sqlite-net-pcl/1.5.231": {
+        "dependencies": {
+          "NETStandard.Library": "2.0.3",
+          "SQLitePCLRaw.bundle_green": "1.1.11"
+        },
+        "runtime": {
+          "lib/netstandard1.1/SQLite-net.dll": {
+            "assemblyVersion": "1.5.231.0",
+            "fileVersion": "1.5.231.0"
+          }
+        }
+      },
+      "SQLitePCLRaw.bundle_green/1.1.11": {
+        "dependencies": {
+          "NETStandard.Library": "2.0.3",
+          "SQLitePCLRaw.core": "1.1.11"
+        },
+        "runtime": {
+          "lib/netstandard1.1/SQLitePCLRaw.batteries_green.dll": {
+            "assemblyVersion": "1.1.11.121",
+            "fileVersion": "1.0.0.0"
+          },
+          "lib/netstandard1.1/SQLitePCLRaw.batteries_v2.dll": {
+            "assemblyVersion": "1.1.11.121",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "SQLitePCLRaw.core/1.1.11": {
+        "dependencies": {
+          "NETStandard.Library": "2.0.3"
+        },
+        "runtime": {
+          "lib/netstandard1.1/SQLitePCLRaw.core.dll": {
+            "assemblyVersion": "1.1.11.121",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "System.Numerics.Vectors/4.5.0": {
+        "runtime": {
+          "lib/netstandard2.0/System.Numerics.Vectors.dll": {
+            "assemblyVersion": "4.1.4.0",
+            "fileVersion": "4.6.26515.6"
+          }
+        }
+      },
+      "Xamarin.Essentials/1.2.0": {
+        "dependencies": {
+          "System.Numerics.Vectors": "4.5.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Xamarin.Essentials.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Xamarin.Forms/4.1.0.673156": {
+        "runtime": {
+          "lib/netstandard2.0/Xamarin.Forms.Core.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "4.1.0.308"
+          },
+          "lib/netstandard2.0/Xamarin.Forms.Platform.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "4.1.0.308"
+          },
+          "lib/netstandard2.0/Xamarin.Forms.Xaml.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "4.1.0.308"
+          }
+        }
+      },
+      "Xamarin.Plugin.Calendar/1.0.3.200": {
+        "dependencies": {
+          "Xamarin.Forms": "4.1.0.673156"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Xamarin.Plugin.Calendar.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Xamarin.Plugin.FilePicker/2.1.18": {
+        "runtime": {
+          "lib/netstandard2.0/Plugin.FilePicker.dll": {
+            "assemblyVersion": "2.1.0.0",
+            "fileVersion": "2.1.0.0"
+          }
+        }
+      },
+      "Yibi.Samples.Core/1.0.0": {
+        "dependencies": {
+          "sqlite-net-pcl": "1.5.231"
+        },
+        "runtime": {
+          "Yibi.Samples.Core.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Yibi.Samples/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.NETCore.Platforms/1.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-kz0PEW2lhqygehI/d6XsPCQzD7ff7gUJaVGPVETX611eadGsA3A877GdSlU0LRVMCTH/+P3o2iDTak+S08V2+A==",
+      "path": "microsoft.netcore.platforms/1.1.0",
+      "hashPath": "microsoft.netcore.platforms.1.1.0.nupkg.sha512"
+    },
+    "NETStandard.Library/2.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-st47PosZSHrjECdjeIzZQbzivYBJFv6P2nv4cj2ypdI204DO+vZ7l5raGMiX4eXMJ53RfOIg+/s4DHVZ54Nu2A==",
+      "path": "netstandard.library/2.0.3",
+      "hashPath": "netstandard.library.2.0.3.nupkg.sha512"
+    },
+    "Plugin.MediaManager/0.8.7": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-YdPqta1kMMyo5NlgZk2p9bAXhLMChEbnYlVE6NqgVpmCmLMi4MBiRTUlut2L4FpNEi/FRBCoQjyzE7003QtQFw==",
+      "path": "plugin.mediamanager/0.8.7",
+      "hashPath": "plugin.mediamanager.0.8.7.nupkg.sha512"
+    },
+    "Plugin.MediaManager.Forms/0.8.7": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-24pvBHA15mgN122ukUY9ldYs9KUxVrpcLMDcfE7NA+USjp6/9v+Nlerlq0ZpQslbmCm5bG03pSrLuT5+ClAvgw==",
+      "path": "plugin.mediamanager.forms/0.8.7",
+      "hashPath": "plugin.mediamanager.forms.0.8.7.nupkg.sha512"
+    },
+    "sqlite-net-pcl/1.5.231": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-B9jScvqkishSMkpa9Mc4Q85LTHxRTzcUXZx9EQqgrvdz7MFEDHfpiPcKdjy1qXHdmHttEXfY4h6gu4FlgWP2Sw==",
+      "path": "sqlite-net-pcl/1.5.231",
+      "hashPath": "sqlite-net-pcl.1.5.231.nupkg.sha512"
+    },
+    "SQLitePCLRaw.bundle_green/1.1.11": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Hqp8IF/RLjbypkLm+t+1RqAX8EKuWEkj7wkLXplfENQoPnE127cvTmaDvaQKtt7a5QsD/HNjFDr1z5f9q2wdPg==",
+      "path": "sqlitepclraw.bundle_green/1.1.11",
+      "hashPath": "sqlitepclraw.bundle_green.1.1.11.nupkg.sha512"
+    },
+    "SQLitePCLRaw.core/1.1.11": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-QT17CyQAQIbTCu6pW5+uVA8BXqRzquiDI1tr5Un6c1YZcQydPmGPuYYng9xMs2UHUDYHbTu+JDkp55WR+qo9bQ==",
+      "path": "sqlitepclraw.core/1.1.11",
+      "hashPath": "sqlitepclraw.core.1.1.11.nupkg.sha512"
+    },
+    "System.Numerics.Vectors/4.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-QQTlPTl06J/iiDbJCiepZ4H//BVraReU4O4EoRw1U02H5TLUIT7xn3GnDp9AXPSlJUDyFs4uWjWafNX6WrAojQ==",
+      "path": "system.numerics.vectors/4.5.0",
+      "hashPath": "system.numerics.vectors.4.5.0.nupkg.sha512"
+    },
+    "Xamarin.Essentials/1.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-o3i5uAchUpAvAlJX0onYFFiDo6jpKl9vgvrdDtXEuEfum0UDrSx8oGGBUjlFyUoRpvWVumXwo0VS3AbzuwEofg==",
+      "path": "xamarin.essentials/1.2.0",
+      "hashPath": "xamarin.essentials.1.2.0.nupkg.sha512"
+    },
+    "Xamarin.Forms/4.1.0.673156": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-9NrnfD7kzGq/qjMOrdkTMxtZBOakwo5kEcay8Z6Iwv88bx11J/CDtDVJ0a5IPzfRwRq9XCcrMj3nu9DLQy6ZdA==",
+      "path": "xamarin.forms/4.1.0.673156",
+      "hashPath": "xamarin.forms.4.1.0.673156.nupkg.sha512"
+    },
+    "Xamarin.Plugin.Calendar/1.0.3.200": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-OLpkpdBuov99ZVc1c0XmAeTGqSmioXyuWxPgmhTSruRjO1JFjEIT2lJKXHr+hCTLZwDq8VgjQ66DtZGfmR/adg==",
+      "path": "xamarin.plugin.calendar/1.0.3.200",
+      "hashPath": "xamarin.plugin.calendar.1.0.3.200.nupkg.sha512"
+    },
+    "Xamarin.Plugin.FilePicker/2.1.18": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Cdfatd25+rKMRwy7u8mkinW6Km/Tg69dWmiRS/oseqP3rjy4praFsZWgvNK/W5jHOpeQoT25Ahk9093vtrYrKg==",
+      "path": "xamarin.plugin.filepicker/2.1.18",
+      "hashPath": "xamarin.plugin.filepicker.2.1.18.nupkg.sha512"
+    },
+    "Yibi.Samples.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Yibi.Samples.Pages.ShowAlarmClockPage">
+
+    <Grid Margin="20">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+
+        <Label Grid.Row="0" Text="{Binding Name}" VerticalTextAlignment="Center" HorizontalTextAlignment="Center" FontSize="Large" />
+
+        <Label Grid.Row="1" Text="{Binding SelectedTime}" VerticalTextAlignment="Center" HorizontalTextAlignment="Center" FontSize="Large" />
+
+        <Button Grid.Row="2" Text="OK" BackgroundColor="#00CCCC" BorderWidth="0" TextColor="#FFFFFF" Margin="0,30,0,0" Clicked="OnBtnOk_Clicked" />
+    </Grid>
+    
+</ContentPage>
